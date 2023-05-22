@@ -1,0 +1,11 @@
+.addEmployee {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.employeeDiv {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
