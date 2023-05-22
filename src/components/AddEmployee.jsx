@@ -12,7 +12,7 @@ const AddEmployee = () => {
     console.log(employee);
 
     axios
-      .post("/api/employees", employee)
+      .post("https://employeeserver-whjq.onrender.com/api/posts", employee)
       .then((response) => {
         console.log("Form submitted successfully:", response.data);
 
