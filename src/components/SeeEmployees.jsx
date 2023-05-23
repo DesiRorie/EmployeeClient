@@ -13,7 +13,7 @@ const SeeEmployees = () => {
       .catch((error) => {
         console.error("Error submitting form:", error);
       });
-  }, []);
+  }, [employees]);
   return (
     <div className="seeEmployees">
       <h2>Current Employees:</h2>
