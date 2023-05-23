@@ -56,7 +56,7 @@ const AddEmployee = () => {
         }}
         placeholder="Enter your number"
       />
-      <button type="submit"> submit</button>
+      <button type="submit"> Submit</button>
     </form>
   );
 };
