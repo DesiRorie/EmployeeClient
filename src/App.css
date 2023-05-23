@@ -9,3 +9,13 @@
 
   align-items: center;
 }
+.seeEmployees {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.employees {
+  min-width: 300px;
+}
