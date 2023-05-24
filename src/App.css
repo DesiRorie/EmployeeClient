@@ -14,7 +14,7 @@
   flex-direction: column;
 
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .employees {
   min-width: 300px;
