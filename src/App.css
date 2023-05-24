@@ -19,3 +19,7 @@
 .employees {
   min-width: 300px;
 }
+button {
+  color: white;
+  text-decoration: none;
+}
