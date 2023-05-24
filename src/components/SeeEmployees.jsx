@@ -80,7 +80,7 @@ const SeeEmployees = () => {
           </div>
         ))
       )}
-      <button style={{ width: "200px" }}>
+      <button style={{ margin: "auto", width: "200px" }}>
         <Link to="/">Go Back</Link>
       </button>
     </div>
