@@ -80,7 +80,7 @@ const SeeEmployees = () => {
           </div>
         ))
       )}
-      <button>
+      <button style={{ width: "200px" }}>
         <Link to="/">Go Back</Link>
       </button>
     </div>
