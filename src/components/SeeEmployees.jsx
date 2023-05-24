@@ -80,15 +80,8 @@ const SeeEmployees = () => {
           </div>
         ))
       )}
-      <button
-        style={{
-          color: "white",
-          textDecoration: "none",
-          margin: "auto",
-          width: "200px",
-        }}
-      >
-        <Link to="/">Go Back</Link>
+      <button>
+        <Link to="/">Home</Link>
       </button>
     </div>
   );
