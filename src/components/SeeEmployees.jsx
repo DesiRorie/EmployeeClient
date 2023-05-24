@@ -80,11 +80,6 @@ const SeeEmployees = () => {
           </div>
         ))
       )}
-
-      <Link to="/">
-        {" "}
-        <button className="backToHome">Home </button>
-      </Link>
     </div>
   );
 };

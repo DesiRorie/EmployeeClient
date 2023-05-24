@@ -58,18 +58,17 @@ const AddEmployee = () => {
           }}
           placeholder="Enter your number"
         />
-        <button type="submit"> Submit</button>
+        <button type="submit"> Submit</button>{" "}
+        <Link
+          to="/seeEmployees"
+          style={{ color: "white", textDecoration: "none" }}
+        >
+          {" "}
+          <button style={{ width: "100%", marginTop: "1em" }}>
+            See employees{" "}
+          </button>
+        </Link>
       </form>
-
-      <Link
-        to="/seeEmployees"
-        style={{ color: "white", textDecoration: "none" }}
-      >
-        {" "}
-        <button style={{ width: "300px", marginTop: "1em" }}>
-          See employees{" "}
-        </button>
-      </Link>
     </>
   );
 };
