@@ -60,14 +60,16 @@ const AddEmployee = () => {
         />
         <button type="submit"> Submit</button>
       </form>
-      <button style={{ marginTop: "1em" }}>
-        <Link
-          to="/seeEmployees"
-          style={{ color: "blue", textDecoration: "none" }}
-        >
-          See employees
-        </Link>
-      </button>
+
+      <Link
+        to="/seeEmployees"
+        style={{ color: "white", textDecoration: "none" }}
+      >
+        {" "}
+        <button style={{ width: "300px", marginTop: "1em" }}>
+          See employees{" "}
+        </button>
+      </Link>
     </>
   );
 };

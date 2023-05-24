@@ -22,7 +22,13 @@
 a {
   color: white;
   text-decoration: none;
+  font-size: larger;
 }
-button {
+
+form button {
+  margin-top: 10px;
+}
+.backToHome {
   width: 300px;
+  margin: auto;
 }
