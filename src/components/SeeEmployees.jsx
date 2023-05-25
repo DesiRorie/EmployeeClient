@@ -46,7 +46,7 @@ import { Link } from "react-router-dom";
 
 const SeeEmployees = () => {
   const [employees, setEmployees] = useState([]);
-  const [isLoading, setIsLoading] = useState(true); // Add isLoading state
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     axios

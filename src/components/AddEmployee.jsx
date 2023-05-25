@@ -6,7 +6,7 @@ const AddEmployee = () => {
   const [employee, setEmployee] = useState({
     firstName: "",
     lastName: "",
-    phone: 0,
+    phone: null,
   });
   const handleSubmit = (e) => {
     e.preventDefault();

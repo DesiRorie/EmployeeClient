@@ -18,7 +18,16 @@
   /* align-items: center; */
 }
 .employees {
-  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.employees button {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.employees input {
+  width: 93px;
+  margin-bottom: 10px;
 }
 a {
   color: white;
@@ -54,7 +63,11 @@ form button {
 .commands li {
   list-style: none;
 }
-
+.homeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (min-width: 1024px) {
   .addEmployee {
     width: 20%;

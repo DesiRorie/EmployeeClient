@@ -9,6 +9,9 @@ const Command = () => {
           <Link to="/addEmployee">Add Employee</Link>
         </li>
         <li>
+          <Link to="/editEmployee">Edit Employees</Link>
+        </li>
+        <li>
           <Link to="/seeEmployees">View Employees</Link>
         </li>
       </ul>
