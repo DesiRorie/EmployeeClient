@@ -34,6 +34,7 @@ const EditEmployees = () => {
       )
       .then((response) => {
         console.log("Employee updated successfully:", response.data);
+        window.location.reload();
       })
       .catch((error) => {
         console.error("Error updating employee:", error);
@@ -59,7 +60,7 @@ const EditEmployees = () => {
         console.error("Error submitting form:", error);
         setIsLoading(false);
       });
-  }, [employees]);
+  }, []);
 
   return (
     <div>
