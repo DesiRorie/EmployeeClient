@@ -59,7 +59,7 @@ const EditEmployees = () => {
         console.error("Error submitting form:", error);
         setIsLoading(false);
       });
-  }, []);
+  }, [employees]);
 
   return (
     <div>
