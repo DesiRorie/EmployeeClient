@@ -64,7 +64,7 @@ const EditEmployees = () => {
 
   return (
     <div>
-      EditEmployeess
+      Edit Employeess
       <div className="seeEmployees">
         <h2>Current Employees:</h2>
         {isLoading ? (
@@ -114,7 +114,9 @@ const EditEmployees = () => {
                     Confirm Edit
                   </button>
                 </>
-              ) : null}
+              ) : (
+                ""
+              )}
               <button onClick={lastNameEdit}>Edit Last Name</button>
               <span>Phone Number: {employee.phone}</span>
             </div>

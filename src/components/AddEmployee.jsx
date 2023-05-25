@@ -6,7 +6,7 @@ const AddEmployee = () => {
   const [employee, setEmployee] = useState({
     firstName: "",
     lastName: "",
-    phone: null,
+    phone: "",
   });
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,7 +20,7 @@ const AddEmployee = () => {
         setEmployee({
           firstName: "",
           lastName: "",
-          phone: null,
+          phone: "",
         });
       })
       .catch((error) => {
