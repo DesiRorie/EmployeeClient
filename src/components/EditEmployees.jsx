@@ -64,7 +64,6 @@ const EditEmployees = () => {
 
   return (
     <div>
-      Edit Employeess
       <div className="seeEmployees">
         <h2>Current Employees:</h2>
         {isLoading ? (
