@@ -88,7 +88,11 @@ const EditEmployees = () => {
                     }}
                     placeholder="First Name"
                   />
-                  <button onClick={() => confirmEdit(employee.id)}>
+                  <button
+                    onClick={() => {
+                      confirmEdit(employee.id);
+                    }}
+                  >
                     Confirm Edit
                   </button>
                 </>
@@ -105,7 +109,7 @@ const EditEmployees = () => {
                       setLastName(e.target.value);
                     }}
                     placeholder="Last Name"
-                  />{" "}
+                  />
                   <button onClick={() => confirmEdit(employee.id)}>
                     Confirm Edit
                   </button>
