@@ -76,7 +76,7 @@ form button {
 }
 @media (min-width: 1024px) {
   .addEmployee {
-    width: 20%;
+    width: 40%;
   }
   .homeContent {
     width: 50%;
